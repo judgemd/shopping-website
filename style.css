@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@600&display=swap');
+* {
+    margin:0px;
+    padding:0px;
+}
+body {
+    background-image:url(resim/White-honeycomb-hexagon-Mirrored.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: 'Arvo', serif;
+}
+ul, ol {
+    list-style-type: none;
+}
+#container {
+    width:1000px;
+    height:840px;
+    margin-left:auto;
+    margin-right:auto;
+}
+#ustmenu {
+    width:1000px;
+    height:110px;
+}
+#logo {
+    width: 150px;
+    height:110px;
+    display:inline-block;
+}
+#menu {
+    width:800px;
+    height:110px;
+    background-color:orange;
+    display:inline-block;
+    float:right;
+}
+#menu li {
+    display:inline-block
+}
+#menu a {
+    color:white;
+    font-size:25px;
+    text-decoration:none;
+    padding:0px 20px;
+    height:110px;
+    display:inline-block;
+    line-height: 110px;
+    position: relative;
+    left:90px;
+}
+#menu a:hover {
+    text-decoration:underline;
+    color:grey
+}
