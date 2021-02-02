@@ -55,3 +55,43 @@ ul, ol {
     text-decoration:underline;
     color:grey
 }
+#ortamenu {
+    width:1000px;
+    height: 400px;
+    background-color:#c2dbe8;
+    margin-top:20px;
+    position:relative;
+}
+#bannerleft {
+    width:400px;
+    height:380px;
+    position:absolute;
+    left:40px;
+    bottom:0px;
+}
+#bannerright {
+    width: 400px;
+    height: 380px;
+    position:absolute;
+    right:80px;
+    top: 10px;
+}
+#bannerleft img {
+    transform:scale(1);
+    transition: all 0.7s;
+}
+#bannerleft img:hover {
+    transform: scale(1.1);
+}
+#bannerright h1 {
+    color:dodgerblue;
+    font-family: 'Pacifico', cursive;
+    padding-top:30px;
+    font-size:50px;
+    font-weight: 300;
+}
+#bannerright p {
+    color:black;
+    font-family: 'Abril Fatface', cursive;
+    font-size:50px;
+}
