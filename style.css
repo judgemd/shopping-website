@@ -8,7 +8,7 @@
 }
 body {
     background-image:url(resim/White-honeycomb-hexagon-Mirrored.jpg);
-    background-repeat: no-repeat;
+    background-repeat:unset;
     background-size:cover;
     font-family: 'Arvo', serif;
 }
@@ -94,4 +94,80 @@ ul, ol {
     color:black;
     font-family: 'Abril Fatface', cursive;
     font-size:50px;
+}
+#urunler {
+    width:1000px;
+    height:800px;
+    background-color:orange;
+    margin-top:30px;
+    position:relative;
+}
+.box {
+    width:400px;
+    height:170px;
+    background-color:palegoldenrod;
+    border-radius:30px;
+    position:absolute;
+    top:20px;
+    left:50px;
+}
+.urunresmi {
+    padding-left:10px;
+    padding-top:10px;
+}
+.box h1 {
+    color:black;
+    font-family: 'Abril Fatface', cursive;
+    position:absolute;
+    left:150px;
+    top:20px;
+}
+.box p {
+    color:black;
+    font-family: 'Martel', serif;
+    position:absolute;
+    left:150px;
+    top:80px;
+    font-size:20px;
+    font-weight: 100;
+}
+.dikeybox {
+    width:300px;
+    height:450px;
+    background-color:palegoldenrod;
+    border-radius:30px;
+    position: absolute;;
+    top:230px;
+    left:50px;
+}
+.dikeyresim {
+    padding-top:20%;
+    position: relative;
+    left: 20%;
+    bottom:60px;
+}
+.dikeybox h1 {
+    color:black;
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    padding-bottom:50px;
+}
+.dikeyboxx {
+    width:300px;
+    height:450px;
+    background-color:palegoldenrod;
+    border-radius:30px;
+    position: absolute;
+    top:230px;
+    left:600px;
+}
+.dikeyresimm {
+    padding-top:30px;
+    padding-left:75px;
+}
+.dikeyboxx h1 {
+    color:black;
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    padding-top:100px;
 }
